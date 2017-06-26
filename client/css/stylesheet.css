@@ -8,29 +8,26 @@ body {
     padding-top: 40px;
 }
 
+h1 {
+    font-size: 60px;
+}
 
 .center {
     color: floralwhite;
     text-shadow: 1px 1px #000000;
     text-align: justify;
     position: absolute;
-    max-width: 700px;
-    max-height: 50px;
+    max-width: 50%;
+    max-height: 15%;
     top: 50%;
     left: 50%;
     margin-top: -130px;
-    margin-left: -350px;
+    margin-left: -500px;
     
 }
 
 .toFade {
      display: none;
-}
-
-.middleBlock {
-    border-width: 80%;
-    border-left: 1px solid black;
-    border-right: 1px solid black;
 }
 
 .navMain {
@@ -41,12 +38,15 @@ body {
 
 .navMain ul {
     position: absolute;
+    float: right;
     bottom: 0;
 }
 
 .parallax {
     background-image: url("/img/grey-pattern.png");
-    height: 585px;
+    width: 100%;
+    
+    height: 100vh;
     background-attachment: fixed;
     background-position: center;
     background-repeat: repeat;
@@ -54,7 +54,7 @@ body {
 
 .parallaxSmall {
     background-image: url("/img/grey-pattern.png");
-    height: 50px;
+    height: 10px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: repeat;
