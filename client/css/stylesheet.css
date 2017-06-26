@@ -1,0 +1,66 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    padding-top: 40px;
+}
+
+
+.center {
+    color: floralwhite;
+    text-shadow: 1px 1px #000000;
+    text-align: justify;
+    position: absolute;
+    max-width: 700px;
+    max-height: 50px;
+    top: 50%;
+    left: 50%;
+    margin-top: -130px;
+    margin-left: -350px;
+    
+}
+
+.toFade {
+     display: none;
+}
+
+.middleBlock {
+    border-width: 80%;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.navMain {
+    height: 50px;
+    margin-top: 15px;
+    position: relative;
+}
+
+.navMain ul {
+    position: absolute;
+    bottom: 0;
+}
+
+.parallax {
+    background-image: url("/img/grey-pattern.png");
+    height: 585px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: repeat;
+}
+
+.parallaxSmall {
+    background-image: url("/img/grey-pattern.png");
+    height: 50px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: repeat;
+}
+
+footer {
+    color: white;
+    background-color: #505050;
+}
