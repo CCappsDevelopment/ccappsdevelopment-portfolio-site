@@ -1,0 +1,23 @@
+{
+  "name": "CCappsDevelopment",
+  "version": "0.1.0",
+  "description": "Personal website showcasing my skills as a web developer.",
+  "license": "GPL-3.0",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "bootstrap": "^3.3.7",
+    "express": "^4.14.0",
+    "font-awesome": "^4.6.3",
+    "jquery": "^3.1.0",
+    "mongoose": "^4.6.0",
+    "mongoose-auto-increment": "^5.0.1"
+  },
+  "devDependencies": {
+    "request": "^2.75.0"
+  },
+  "scripts": {
+    "start": "node server/server.js"
+  },
+  "author": "Cory Capps"
+}
