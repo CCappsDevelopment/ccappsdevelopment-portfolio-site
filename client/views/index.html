@@ -21,7 +21,7 @@
             <!- First row: Logo, Name and Nav bar ->
             <div class="row">
                                     
-                <nav class="navbar navbar-default navbar-fixed-top">
+                <nav class="navbar navbar-default navbar-fixed-top" id="nav-top">
                     
                     <div class="container">
                         
@@ -30,7 +30,9 @@
                             <a href="#Top"><h3>CCapps Development</h3></a>
                             
                         </div>
-                                            
+                          
+                         <div class="clearfix visible-xs"></div>
+                        
                         <div class="col-md-6 navMain">
                             
                             <ul class="nav nav-pills navbar-right">
@@ -58,7 +60,7 @@
                         
                     <div class="parallax">
                             
-                        <div class="col-md-12 center toFade" id="landingInfo">
+                        <div class="center toFade" id="landingInfo">
                             
                             <h1><strong>Full-Stack Web Developer</strong></h1> <br>
 
@@ -68,9 +70,9 @@
 
                             <br><br><br>
 
-                            <center><a class="btn" href="#About"><strong>Learn More</strong><br> <i class="fa fa-angle-down"  style="font-size: 50px;"></i></a></center>
-
                         </div>
+                        
+                        <a class="btn contentArrow" href="#About"><strong>Learn More</strong><br> <i class="fa fa-angle-down" style="font-size: 50px;"></i></a>
 
                     </div>
 
@@ -86,9 +88,9 @@
                 <div class="container" id="About">
                     
                     <div class="col-md-12">
-                        
-                        <h1 id="aboutHeader" style="display: none;"> About Me </h1>
-                        
+              
+                        <h1 class="sectionHeader" id="aboutHeader"> About Me </h1>
+                     
                     </div>
                     
                     <div class="col-md-4 toFade" id="block1">
@@ -134,15 +136,15 @@
                     
                     <div class="col-md-12">
                         
-                        <h1>Portfolio</h1>
+                        <h1 class="sectionHeader" id="portfolioHeader">Portfolio</h1>
                     
                     </div>
                     
                     <div class="col-md-4">
                         
-                        <div class="card" style="width: 30rem;">
+                        <div class="card toFade" id="card01" style="width: 30rem;">
                             
-                            <img class="card-img-top" src="/img/profile.png">
+                            <div class="jumbotron"></div>
                             
                             <div class="card-block">
                                 
@@ -152,7 +154,7 @@
                                     Some quick example text to build on the card title and make up the bulk of the card's content.
                                 </p>
                                 
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <a href="#" class="btn btn-info">View Website</a>
                                 
                             </div>
                             
@@ -162,19 +164,19 @@
                     
                     <div class="col-md-4">
                         
-                        <div class="card" style="width: 30rem;">
+                        <div class="card toFade" id="card02" style="width: 30rem;">
                             
-                            <img class="card-img-top" src="/img/profile.png">
+                            <div class="jumbotron"></div>
                             
                             <div class="card-block">
                                 
-                                <h4 class="card-title">Project 01 - TBA</h4>
+                                <h4 class="card-title">Project 02 - TBA</h4>
                                 
                                 <p class="card-text">
                                     Some quick example text to build on the card title and make up the bulk of the card's content.
                                 </p>
                                 
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <a href="#" class="btn btn-info">View Website</a>
                                 
                             </div>
                             
@@ -184,20 +186,19 @@
                     
                     <div class="col-md-4">
                         
-                        <div class="card" style="width: 30rem;">
+                        <div class="card toFade" id="card03" style="width: 30rem;">
                             
-                            <img class="card-img-top" src="/img/profile.png">
+                            <div class="jumbotron"></div>
                             
                             <div class="card-block">
                                 
-                                <h4 class="card-title">Project 01 - TBA</h4>
+                                <h4 class="card-title">Project 03 - TBA</h4>
                                 
                                 <p class="card-text">
                                     Some quick example text to build on the card title and make up the bulk of the card's content.
                                 </p>
                                 
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                                
+                                <a href="#" class="btn btn-info">View Website</a>                                
                             </div>
                             
                         </div>
@@ -217,37 +218,43 @@
                     
                     <div class="col-md-12">
                         
-                        <h1>Testimonials</h1>
+                        <h1 class="sectionHeader">Testimonials</h1>
                         
                     </div>
                     
-                    <div class="col-md-12">
+                    <div class="col-md-6 col-md-push-3">
                         
                         <div class="well">
                             
-                            <h1><i class="fa fa-quote-left" aria-hidden="true"></i></h1> <br>
+                            <h1 class="quote"><i class="fa fa-quote-left" aria-hidden="true"></i></h1> <br>
                             
-                            <p>
+                            <p class="post-body">
                                 There aren't many developers as dedicated and knowledgeable as Mr. Capps. His passion for all things computing shines clearly through the solutions he delivers. I had the pleasure of working with Mr. Capps on an educational web application built on MEAN stack technologies. I was impressed particularly by his ability to adapt to constantly changing requirements and to pick up new technologies on the fly. Whenever things started to get stressful, he somehow always kept his cool, and as a result, our project never really felt like work. I highly recommend Mr. Capps to anyone in need of custom software, no matter the technologies involved.
                             </p>
                             
                             <br>
                             
-                            <small>-Some Guy De La Rossa</small>
+                            <small class="attr">-Cliff Roberts</small>
 
                         </div>
                         
+                    </div>   
+                    
+                    <div class="clearfix"></div>
+                    
+                    <div class="col-md-6 col-md-push-3">  
+                         
                         <div class="well">
                             
-                            <h1><i class="fa fa-quote-left" aria-hidden="true"></i></h1> <br>
+                            <h1 class="quote"><i class="fa fa-quote-left" aria-hidden="true"></i></h1> <br>
                             
-                            <p>
+                            <p class="post-body">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam venenatis vehicula dapibus. Pellentesque sed est diam. Nunc et fringilla ipsum. Nam tempor vestibulum ornare. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam venenatis vehicula dapibus. Pellentesque sed est diam. Nunc et fringilla ipsum. Nam tempor vestibulum ornare. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam venenatis vehicula dapibus. Pellentesque sed est diam. Nunc et fringilla ipsum. Nam tempor vestibulum ornare.
                             </p>
                             
                             <br>
                             
-                            <small>-Some Guy De La Rossa</small>
+                            <small class="attr">-Some Guy De La Rossa</small>
 
                         </div>
                     

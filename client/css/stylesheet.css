@@ -1,33 +1,51 @@
 html, body {
     max-width: 100%;
     overflow-x: hidden;
+    color: #0A1725;
+    background-color: rgba(233,240,255, 0.2);
     font-family: 'Lato', sans-serif;
 }
 
-body {
-    
-    padding-top: 40px;
+a, a:hover, a:active, a:visited {
+    text-decoration: none;
+    color: #0A1725;
 }
 
 h1 {
     font-size: 60px;
 }
 
+h3 {
+    padding-top: 10px;
+}
+
+.navbar{
+    background-color: rgba(233,240,255, 0.9);
+    border: none;
+}
+
 .center {
-    color: #101010;
     position: absolute;
-    width: 50%;
-    height: 15%;
+    width: 100%;
+    height: 20%;
     top: 30%;
     left: 25%;
 }
 
+.jumbotron {
+    width: 100%;
+    border: 1px solid #101010;
+    height: 200px;
+}
+
 .well {
-    width: 50%;
-    text-align: center;
     margin-left: auto;
     margin-right: auto;
-    padding: 25px 10px 25px 10px;
+    padding: 25px 20px 25px 20px;
+}
+
+.card {
+    padding-bottom: 50px;
 }
 
 .toFade {
@@ -46,8 +64,24 @@ h1 {
     bottom: 0;
 }
 
-.page-section {        
-    height: 100vh;
+.nav-pills a:hover {
+    background-color: rgba(61,85,109, 0.4) !important;
+}
+
+.contentArrow {
+    color: #101010;
+    position: absolute;
+    width: 50%;
+    height: 20%;
+    top: 75%;
+    left: 25%;
+}
+
+
+.page-section {  
+    padding-bottom: 20px;
+    min-height: 100vh;
+    max-height: 200%;
 }
 
 .parallax {
@@ -66,6 +100,22 @@ h1 {
     background-repeat: repeat;
 }
 
+.quote {
+    text-align: center;
+}
+
+.post-body {
+    text-align: justify;
+    padding: 0px 20px 0px 20px;
+}
+
+.attr {
+   float: right;
+}
+
+.btn-info, .btn-info:hover, .btn-info:active, .btn-info:visited {
+    background-color: #8CAACC !important;
+}
 
 footer {
     color: white;
@@ -77,6 +127,6 @@ footer {
     padding-top: 75px;
 }
 
-#aboutHeader {
+.sectionHeader {
     padding-bottom: 100px;
 }
