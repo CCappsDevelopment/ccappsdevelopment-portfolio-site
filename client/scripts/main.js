@@ -3,7 +3,7 @@ $(document).ready(function() {
     $("#landingInfo").fadeIn(1000);
     
     $(window).scroll(function() {
-        if ($(window).scrollTop() > 150) {
+        if ($(window).scrollTop() > 200) {
             $("#aboutHeader").fadeIn(500);
             $("#block1").fadeIn(500);
             $("#block2").fadeIn(750);

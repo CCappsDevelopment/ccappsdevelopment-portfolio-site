@@ -5,7 +5,7 @@ html, body {
 }
 
 body {
-    display: table;
+    
     padding-top: 40px;
 }
 
@@ -13,22 +13,13 @@ h1 {
     font-size: 60px;
 }
 
-section{
-    vertical-align: middle; 
-}
-
 .center {
-    color: floralwhite;
-    text-shadow: 1px 1px #000000;   
-    text-align: center;
+    color: #101010;
     position: absolute;
     max-width: 50%;
     max-height: 15%;
-    top: 50%;
-    left: 50%;
-    margin-top: -130px;
-    margin-left: -500px;
-    
+    top: 30%;
+    left: 25%;
 }
 
 .toFade {
@@ -47,13 +38,16 @@ section{
     bottom: 0;
 }
 
+.page-section {        
+    height: 100vh;
+}
+
 .parallax {
-    background-image: url("/img/grey-pattern.png");
-    width: auto;
+    background-image: url("/img/bg2.jpeg");
+    background-size: 150% 150%;
     height: 100vh;
     background-attachment: fixed;
     background-position: center;
-    background-repeat: repeat;
 }
 
 .parallaxSmall {
@@ -64,7 +58,16 @@ section{
     background-repeat: repeat;
 }
 
+
 footer {
     color: white;
     background-color: #505050;
+}
+
+#About, #Portfolio, #Testimonials{
+    padding-top: 100px;
+}
+
+#aboutHeader {
+    padding-bottom: 100px;
 }
